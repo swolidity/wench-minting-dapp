@@ -202,6 +202,12 @@ function App() {
       >
         <StyledLogo alt={"logo"} src={"/config/images/logo.jpg"} />
         <s.SpacerSmall />
+
+        <div>
+          If you are tired of Apes, Punks, and Pixels, I would like to introduce
+          you to a new and refreshing NFT collection called Wench 2043.
+        </div>
+
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/example.gif"} />
@@ -384,6 +390,18 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
+            <div>
+              Wench 2043 is the story of Oksana Bayaux, the daughter of Wench
+              2020, Roksana Bayaux, who was killed giving birth during the
+              Swedish War of Aggression. The medic performed an emergency
+              C-Section to save her life, and all he had were a pair of hotdog
+              tongs to remove little Oksana, thus her slightly skewed head. She
+              is a horrifically beautiful woman who lives in troubling times of
+              a post apocalyptic world in the year 2043 where there is chaos and
+              destruction, yet she is full of life and hope. Wench 2043 is a
+              unique collection of 2,043 unique, hand-made NFTs. Adopt your's
+              now before it's too late.
+            </div>
             <div>
               <h1>Wench 2043 FAQ</h1>
             </div>
