@@ -6,3 +6,7 @@
   --accent: #505050;
   --accent-text: #ffffff;
 }
+
+h1 {
+  font-size: 24px;
+}
