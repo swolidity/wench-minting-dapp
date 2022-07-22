@@ -200,7 +200,17 @@ function App() {
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
-        <h1>Wench 2043 Rebooted</h1>
+        <h1
+          style={{
+            textAlign: "center",
+            color: "var(--primary-text)",
+            fontSize: "42px",
+            fontFamily: "courier",
+            marginBottom: "22px",
+          }}
+        >
+          Wench 2043 Rebooted
+        </h1>
         <StyledLogo alt={"logo"} src={"/config/images/logo.jpg"} />
         <s.SpacerSmall />
 
