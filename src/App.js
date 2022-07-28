@@ -207,7 +207,7 @@ function App() {
           style={{ marginBottom: "24px" }}
         >
           <s.Container flex={"auto"} ai={"center"}>
-            <a href="https://twitter.com/wench2043">
+            <a href="https://twitter.com/wench2043" target="_blank">
               <img
                 src="/config/images/twitter.png"
                 alt="twitter link"
@@ -217,9 +217,12 @@ function App() {
           </s.Container>
 
           <s.Container flex={"auto"} ai={"center"}>
-            <a href="https://opensea.io/collection/wench-2043-rebooted">
+            <a
+              href="https://opensea.io/collection/wench-2043-rebooted"
+              target="_blank"
+            >
               <img
-                src="/config/images/opensea.svg"
+                src="/config/images/opensea.png"
                 alt="opensea link"
                 height="24px"
               />
@@ -227,7 +230,10 @@ function App() {
           </s.Container>
 
           <s.Container flex={"auto"} ai={"center"}>
-            <a href="https://raritysniper.com/nft-drops-calendar">
+            <a
+              href="https://raritysniper.com/nft-drops-calendar"
+              target="_blank"
+            >
               <img
                 src="/config/images/rarity-sniper.png"
                 alt="rarity sniper link"
