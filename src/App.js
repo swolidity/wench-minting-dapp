@@ -200,6 +200,43 @@ function App() {
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
+        <ResponsiveWrapper
+          flex={1}
+          ai={"center"}
+          js={"center"}
+          style={{ marginBottom: "24px" }}
+        >
+          <s.Container flex={"auto"} ai={"center"}>
+            <a href="https://twitter.com/wench2043">
+              <img
+                src="/config/images/twitter.png"
+                alt="twitter link"
+                height="24px"
+              />
+            </a>
+          </s.Container>
+
+          <s.Container flex={"auto"} ai={"center"}>
+            <a href="https://opensea.io/collection/wench-2043-rebooted">
+              <img
+                src="/config/images/opensea.svg"
+                alt="opensea link"
+                height="24px"
+              />
+            </a>
+          </s.Container>
+
+          <s.Container flex={"auto"} ai={"center"}>
+            <a href="https://raritysniper.com/nft-drops-calendar">
+              <img
+                src="/config/images/rarity-sniper.png"
+                alt="rarity sniper link"
+                height="24px"
+              />
+            </a>
+          </s.Container>
+        </ResponsiveWrapper>
+
         <h1
           style={{
             textAlign: "center",
